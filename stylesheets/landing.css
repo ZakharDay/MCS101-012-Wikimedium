@@ -24,6 +24,8 @@
 
 .mainSection.center {
   text-align: center;
+  background-color: #fcfcfc;
+  border-top: 1px solid #f7f7f7;
 }
 
 .mainSection section {
@@ -80,6 +82,26 @@
 
 .mainSection.right .pattern {
   margin-left: 430px;
+}
+
+.mainSection nav {
+  margin-top: 70px;
+  font-size: 0;
+}
+
+.mainSection nav a {
+  margin: 0 10px;
+}
+
+.mainSection .share {
+  position: absolute;
+  right: auto;
+  width: 100%;
+}
+
+.mainSection .share p {
+  font-size: 16px;
+  color: rgba(0,0,0,.8);
 }
 
 .mockup {
@@ -171,6 +193,14 @@
 
   .mainSection.right .pattern {
     margin-left: 300px;
+  }
+
+  .mainSection nav {
+    margin-top: 50px;
+  }
+
+  .mainSection nav a {
+    margin: 0 6px;
   }
 
   #mockup1 {
