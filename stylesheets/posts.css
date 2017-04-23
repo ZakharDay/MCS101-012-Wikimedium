@@ -17,7 +17,6 @@
 .posts figure {
   width: 700px;
   height: 200px;
-  background-image: url(../images/narkomfin.jpg);
   background-size: cover;
   background-position: center;
 }
