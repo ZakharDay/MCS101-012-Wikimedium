@@ -10,6 +10,10 @@ body {
 }
 
 .landingPage {
+  background-color: #fcfcfc;
+}
+
+.landingPage.bg {
   background-image: url(../images/index_mockup.png);
   background-repeat: no-repeat;
   background-position: center -10px;
@@ -24,4 +28,17 @@ a {
   position: fixed;
   right: 20px;
   bottom: 20px;
+}
+
+
+@media all and (max-width: 1180px) {
+  .landingPage.bg {
+    background-image: url(../images/index_mockup_ipad.png);
+  }
+}
+
+@media all and (max-width: 910px) {
+  .landingPage.bg {
+    background-image: url(../images/index_mockup_ipad_portrait.png);
+  }
 }
