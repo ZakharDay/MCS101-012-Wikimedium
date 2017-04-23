@@ -5,6 +5,7 @@
   width: 300px;
   padding: 13px 30px;
   opacity: .1;
+  -webkit-transition: all .1s ease;
   transition: all .1s ease;
 }
 
